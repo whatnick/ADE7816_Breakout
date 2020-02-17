@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name ADE7816ACPZ)(type Legacy)(uri ${KIPRJMOD}/lib/ADE7816ACPZ.lib)(options "")(descr ""))
+)
