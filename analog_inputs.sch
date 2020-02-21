@@ -14,80 +14,859 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Connector:AudioJack3 J?
+L Connector:AudioJack3 J1
 U 1 1 5E4CD16F
-P 3355 2195
-F 0 "J?" H 3337 2520 50  0000 C CNN
-F 1 "AudioJack3" H 3337 2429 50  0000 C CNN
-F 2 "Connector_Audio:Jack_3.5mm_CUI_SJ-3523-SMT_Horizontal" H 3355 2195 50  0001 C CNN
-F 3 "~" H 3355 2195 50  0001 C CNN
-	1    3355 2195
-	1    0    0    -1  
+P 1700 1600
+F 0 "J1" H 1682 1925 50  0000 C CNN
+F 1 "AudioJack3" H 1682 1834 50  0000 C CNN
+F 2 "Connector_Audio:Jack_3.5mm_CUI_SJ-3523-SMT_Horizontal" H 1700 1600 50  0001 C CNN
+F 3 "~" H 1700 1600 50  0001 C CNN
+	1    1700 1600
+	1    0    0    1   
 $EndComp
 $Comp
-L Connector:AudioJack3 J?
-U 1 1 5E4CD175
-P 3350 2870
-F 0 "J?" H 3332 3195 50  0000 C CNN
-F 1 "AudioJack3" H 3332 3104 50  0000 C CNN
-F 2 "Connector_Audio:Jack_3.5mm_CUI_SJ-3523-SMT_Horizontal" H 3350 2870 50  0001 C CNN
-F 3 "~" H 3350 2870 50  0001 C CNN
-	1    3350 2870
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector:AudioJack3 J?
-U 1 1 5E4CD17B
-P 3390 4265
-F 0 "J?" H 3372 4590 50  0000 C CNN
-F 1 "AudioJack3" H 3372 4499 50  0000 C CNN
-F 2 "Connector_Audio:Jack_3.5mm_CUI_SJ-3523-SMT_Horizontal" H 3390 4265 50  0001 C CNN
-F 3 "~" H 3390 4265 50  0001 C CNN
-	1    3390 4265
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector:AudioJack3 J?
-U 1 1 5E4CD181
-P 3285 5180
-F 0 "J?" H 3267 5505 50  0000 C CNN
-F 1 "AudioJack3" H 3267 5414 50  0000 C CNN
-F 2 "Connector_Audio:Jack_3.5mm_CUI_SJ-3523-SMT_Horizontal" H 3285 5180 50  0001 C CNN
-F 3 "~" H 3285 5180 50  0001 C CNN
-	1    3285 5180
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector:AudioJack3 J?
-U 1 1 5E4CD187
-P 3270 5900
-F 0 "J?" H 3252 6225 50  0000 C CNN
-F 1 "AudioJack3" H 3252 6134 50  0000 C CNN
-F 2 "Connector_Audio:Jack_3.5mm_CUI_SJ-3523-SMT_Horizontal" H 3270 5900 50  0001 C CNN
-F 3 "~" H 3270 5900 50  0001 C CNN
-	1    3270 5900
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector:AudioJack3 J?
-U 1 1 5E4CD18D
-P 3390 3265
-F 0 "J?" H 3372 3590 50  0000 C CNN
-F 1 "AudioJack3" H 3372 3499 50  0000 C CNN
-F 2 "Connector_Audio:Jack_3.5mm_CUI_SJ-3523-SMT_Horizontal" H 3390 3265 50  0001 C CNN
-F 3 "~" H 3390 3265 50  0001 C CNN
-	1    3390 3265
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector:Barrel_Jack_Switch J?
+L Connector:Barrel_Jack_Switch J7
 U 1 1 5E4CD193
-P 3245 6490
-F 0 "J?" H 3302 6807 50  0000 C CNN
-F 1 "Barrel_Jack_Switch" H 3302 6716 50  0000 C CNN
-F 2 "Connector_BarrelJack:BarrelJack_Horizontal" H 3295 6450 50  0001 C CNN
-F 3 "~" H 3295 6450 50  0001 C CNN
-	1    3245 6490
+P 6200 1650
+F 0 "J7" H 6257 1967 50  0000 C CNN
+F 1 "Barrel_Jack_Switch" H 6257 1876 50  0000 C CNN
+F 2 "Connector_BarrelJack:BarrelJack_Horizontal" H 6250 1610 50  0001 C CNN
+F 3 "~" H 6250 1610 50  0001 C CNN
+	1    6200 1650
 	1    0    0    -1  
 $EndComp
+$Comp
+L Device:R_Small R7
+U 1 1 5E4FCFBC
+P 2600 1500
+F 0 "R7" V 2404 1500 50  0000 C CNN
+F 1 "1k" V 2495 1500 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 2600 1500 50  0001 C CNN
+F 3 "~" H 2600 1500 50  0001 C CNN
+	1    2600 1500
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C_Small C1
+U 1 1 5E4FD69A
+P 2800 1600
+F 0 "C1" H 2892 1646 50  0000 L CNN
+F 1 "22n" H 2892 1555 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 2800 1600 50  0001 C CNN
+F 3 "~" H 2800 1600 50  0001 C CNN
+	1    2800 1600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R1
+U 1 1 5E501CEF
+P 2400 1600
+F 0 "R1" H 2341 1554 50  0000 R CNN
+F 1 "4.8R" H 2341 1645 50  0000 R CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 2400 1600 50  0001 C CNN
+F 3 "~" H 2400 1600 50  0001 C CNN
+	1    2400 1600
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	1900 1500 2400 1500
+Wire Wire Line
+	2500 1500 2400 1500
+Connection ~ 2400 1500
+Wire Wire Line
+	2700 1500 2800 1500
+Wire Wire Line
+	2400 1700 2400 1800
+Wire Wire Line
+	2400 1800 2800 1800
+Wire Wire Line
+	2800 1800 2800 1700
+$Comp
+L power:GNDA #PWR0101
+U 1 1 5E503A5F
+P 2800 1800
+F 0 "#PWR0101" H 2800 1550 50  0001 C CNN
+F 1 "GNDA" H 2805 1627 50  0000 C CNN
+F 2 "" H 2800 1800 50  0001 C CNN
+F 3 "" H 2800 1800 50  0001 C CNN
+	1    2800 1800
+	1    0    0    -1  
+$EndComp
+Connection ~ 2800 1800
+Wire Wire Line
+	1900 1700 2150 1700
+Wire Wire Line
+	2150 1700 2150 1800
+Wire Wire Line
+	2150 1800 2400 1800
+Connection ~ 2400 1800
+$Comp
+L Connector:AudioJack3 J2
+U 1 1 5E50748B
+P 1700 2600
+F 0 "J2" H 1682 2925 50  0000 C CNN
+F 1 "AudioJack3" H 1682 2834 50  0000 C CNN
+F 2 "Connector_Audio:Jack_3.5mm_CUI_SJ-3523-SMT_Horizontal" H 1700 2600 50  0001 C CNN
+F 3 "~" H 1700 2600 50  0001 C CNN
+	1    1700 2600
+	1    0    0    1   
+$EndComp
+$Comp
+L Device:R_Small R8
+U 1 1 5E507491
+P 2600 2500
+F 0 "R8" V 2404 2500 50  0000 C CNN
+F 1 "1k" V 2495 2500 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 2600 2500 50  0001 C CNN
+F 3 "~" H 2600 2500 50  0001 C CNN
+	1    2600 2500
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C_Small C2
+U 1 1 5E507497
+P 2800 2600
+F 0 "C2" H 2892 2646 50  0000 L CNN
+F 1 "22n" H 2892 2555 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 2800 2600 50  0001 C CNN
+F 3 "~" H 2800 2600 50  0001 C CNN
+	1    2800 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R2
+U 1 1 5E50749D
+P 2400 2600
+F 0 "R2" H 2341 2554 50  0000 R CNN
+F 1 "4.8R" H 2341 2645 50  0000 R CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 2400 2600 50  0001 C CNN
+F 3 "~" H 2400 2600 50  0001 C CNN
+	1    2400 2600
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	1900 2500 2400 2500
+Wire Wire Line
+	2500 2500 2400 2500
+Connection ~ 2400 2500
+Wire Wire Line
+	2700 2500 2800 2500
+Wire Wire Line
+	2400 2700 2400 2800
+Wire Wire Line
+	2400 2800 2800 2800
+Wire Wire Line
+	2800 2800 2800 2700
+$Comp
+L power:GNDA #PWR0102
+U 1 1 5E5074AA
+P 2800 2800
+F 0 "#PWR0102" H 2800 2550 50  0001 C CNN
+F 1 "GNDA" H 2805 2627 50  0000 C CNN
+F 2 "" H 2800 2800 50  0001 C CNN
+F 3 "" H 2800 2800 50  0001 C CNN
+	1    2800 2800
+	1    0    0    -1  
+$EndComp
+Connection ~ 2800 2800
+Wire Wire Line
+	1900 2700 2150 2700
+Wire Wire Line
+	2150 2700 2150 2800
+Wire Wire Line
+	2150 2800 2400 2800
+Connection ~ 2400 2800
+$Comp
+L Connector:AudioJack3 J3
+U 1 1 5E5097FC
+P 1700 3600
+F 0 "J3" H 1682 3925 50  0000 C CNN
+F 1 "AudioJack3" H 1682 3834 50  0000 C CNN
+F 2 "Connector_Audio:Jack_3.5mm_CUI_SJ-3523-SMT_Horizontal" H 1700 3600 50  0001 C CNN
+F 3 "~" H 1700 3600 50  0001 C CNN
+	1    1700 3600
+	1    0    0    1   
+$EndComp
+$Comp
+L Device:R_Small R9
+U 1 1 5E509802
+P 2600 3500
+F 0 "R9" V 2404 3500 50  0000 C CNN
+F 1 "1k" V 2495 3500 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 2600 3500 50  0001 C CNN
+F 3 "~" H 2600 3500 50  0001 C CNN
+	1    2600 3500
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C_Small C3
+U 1 1 5E509808
+P 2800 3600
+F 0 "C3" H 2892 3646 50  0000 L CNN
+F 1 "22n" H 2892 3555 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 2800 3600 50  0001 C CNN
+F 3 "~" H 2800 3600 50  0001 C CNN
+	1    2800 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R3
+U 1 1 5E50980E
+P 2400 3600
+F 0 "R3" H 2341 3554 50  0000 R CNN
+F 1 "4.8R" H 2341 3645 50  0000 R CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 2400 3600 50  0001 C CNN
+F 3 "~" H 2400 3600 50  0001 C CNN
+	1    2400 3600
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	1900 3500 2400 3500
+Wire Wire Line
+	2500 3500 2400 3500
+Connection ~ 2400 3500
+Wire Wire Line
+	2700 3500 2800 3500
+Wire Wire Line
+	2400 3700 2400 3800
+Wire Wire Line
+	2400 3800 2800 3800
+Wire Wire Line
+	2800 3800 2800 3700
+$Comp
+L power:GNDA #PWR0103
+U 1 1 5E50981B
+P 2800 3800
+F 0 "#PWR0103" H 2800 3550 50  0001 C CNN
+F 1 "GNDA" H 2805 3627 50  0000 C CNN
+F 2 "" H 2800 3800 50  0001 C CNN
+F 3 "" H 2800 3800 50  0001 C CNN
+	1    2800 3800
+	1    0    0    -1  
+$EndComp
+Connection ~ 2800 3800
+Wire Wire Line
+	1900 3700 2150 3700
+Wire Wire Line
+	2150 3700 2150 3800
+Wire Wire Line
+	2150 3800 2400 3800
+Connection ~ 2400 3800
+$Comp
+L Connector:AudioJack3 J4
+U 1 1 5E50BCB1
+P 1700 4600
+F 0 "J4" H 1682 4925 50  0000 C CNN
+F 1 "AudioJack3" H 1682 4834 50  0000 C CNN
+F 2 "Connector_Audio:Jack_3.5mm_CUI_SJ-3523-SMT_Horizontal" H 1700 4600 50  0001 C CNN
+F 3 "~" H 1700 4600 50  0001 C CNN
+	1    1700 4600
+	1    0    0    1   
+$EndComp
+$Comp
+L Device:R_Small R10
+U 1 1 5E50BCB7
+P 2600 4500
+F 0 "R10" V 2404 4500 50  0000 C CNN
+F 1 "1k" V 2495 4500 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 2600 4500 50  0001 C CNN
+F 3 "~" H 2600 4500 50  0001 C CNN
+	1    2600 4500
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C_Small C4
+U 1 1 5E50BCBD
+P 2800 4600
+F 0 "C4" H 2892 4646 50  0000 L CNN
+F 1 "22n" H 2892 4555 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 2800 4600 50  0001 C CNN
+F 3 "~" H 2800 4600 50  0001 C CNN
+	1    2800 4600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R4
+U 1 1 5E50BCC3
+P 2400 4600
+F 0 "R4" H 2341 4554 50  0000 R CNN
+F 1 "4.8R" H 2341 4645 50  0000 R CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 2400 4600 50  0001 C CNN
+F 3 "~" H 2400 4600 50  0001 C CNN
+	1    2400 4600
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	1900 4500 2400 4500
+Wire Wire Line
+	2500 4500 2400 4500
+Connection ~ 2400 4500
+Wire Wire Line
+	2700 4500 2800 4500
+Wire Wire Line
+	2400 4700 2400 4800
+Wire Wire Line
+	2400 4800 2800 4800
+Wire Wire Line
+	2800 4800 2800 4700
+$Comp
+L power:GNDA #PWR0104
+U 1 1 5E50BCD0
+P 2800 4800
+F 0 "#PWR0104" H 2800 4550 50  0001 C CNN
+F 1 "GNDA" H 2805 4627 50  0000 C CNN
+F 2 "" H 2800 4800 50  0001 C CNN
+F 3 "" H 2800 4800 50  0001 C CNN
+	1    2800 4800
+	1    0    0    -1  
+$EndComp
+Connection ~ 2800 4800
+Wire Wire Line
+	1900 4700 2150 4700
+Wire Wire Line
+	2150 4700 2150 4800
+Wire Wire Line
+	2150 4800 2400 4800
+Connection ~ 2400 4800
+$Comp
+L Connector:AudioJack3 J5
+U 1 1 5E50EA65
+P 1700 5600
+F 0 "J5" H 1682 5925 50  0000 C CNN
+F 1 "AudioJack3" H 1682 5834 50  0000 C CNN
+F 2 "Connector_Audio:Jack_3.5mm_CUI_SJ-3523-SMT_Horizontal" H 1700 5600 50  0001 C CNN
+F 3 "~" H 1700 5600 50  0001 C CNN
+	1    1700 5600
+	1    0    0    1   
+$EndComp
+$Comp
+L Device:R_Small R11
+U 1 1 5E50EA6B
+P 2600 5500
+F 0 "R11" V 2404 5500 50  0000 C CNN
+F 1 "1k" V 2495 5500 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 2600 5500 50  0001 C CNN
+F 3 "~" H 2600 5500 50  0001 C CNN
+	1    2600 5500
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C_Small C5
+U 1 1 5E50EA71
+P 2800 5600
+F 0 "C5" H 2892 5646 50  0000 L CNN
+F 1 "22n" H 2892 5555 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 2800 5600 50  0001 C CNN
+F 3 "~" H 2800 5600 50  0001 C CNN
+	1    2800 5600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R5
+U 1 1 5E50EA77
+P 2400 5600
+F 0 "R5" H 2341 5554 50  0000 R CNN
+F 1 "4.8R" H 2341 5645 50  0000 R CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 2400 5600 50  0001 C CNN
+F 3 "~" H 2400 5600 50  0001 C CNN
+	1    2400 5600
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	1900 5500 2400 5500
+Wire Wire Line
+	2500 5500 2400 5500
+Connection ~ 2400 5500
+Wire Wire Line
+	2700 5500 2800 5500
+Wire Wire Line
+	2400 5700 2400 5800
+Wire Wire Line
+	2400 5800 2800 5800
+Wire Wire Line
+	2800 5800 2800 5700
+$Comp
+L power:GNDA #PWR0105
+U 1 1 5E50EA84
+P 2800 5800
+F 0 "#PWR0105" H 2800 5550 50  0001 C CNN
+F 1 "GNDA" H 2805 5627 50  0000 C CNN
+F 2 "" H 2800 5800 50  0001 C CNN
+F 3 "" H 2800 5800 50  0001 C CNN
+	1    2800 5800
+	1    0    0    -1  
+$EndComp
+Connection ~ 2800 5800
+Wire Wire Line
+	1900 5700 2150 5700
+Wire Wire Line
+	2150 5700 2150 5800
+Wire Wire Line
+	2150 5800 2400 5800
+Connection ~ 2400 5800
+$Comp
+L Connector:AudioJack3 J6
+U 1 1 5E511C38
+P 1700 6600
+F 0 "J6" H 1682 6925 50  0000 C CNN
+F 1 "AudioJack3" H 1682 6834 50  0000 C CNN
+F 2 "Connector_Audio:Jack_3.5mm_CUI_SJ-3523-SMT_Horizontal" H 1700 6600 50  0001 C CNN
+F 3 "~" H 1700 6600 50  0001 C CNN
+	1    1700 6600
+	1    0    0    1   
+$EndComp
+$Comp
+L Device:R_Small R12
+U 1 1 5E511C3E
+P 2600 6500
+F 0 "R12" V 2404 6500 50  0000 C CNN
+F 1 "1k" V 2495 6500 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 2600 6500 50  0001 C CNN
+F 3 "~" H 2600 6500 50  0001 C CNN
+	1    2600 6500
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C_Small C6
+U 1 1 5E511C44
+P 2800 6600
+F 0 "C6" H 2892 6646 50  0000 L CNN
+F 1 "22n" H 2892 6555 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 2800 6600 50  0001 C CNN
+F 3 "~" H 2800 6600 50  0001 C CNN
+	1    2800 6600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R6
+U 1 1 5E511C4A
+P 2400 6600
+F 0 "R6" H 2341 6554 50  0000 R CNN
+F 1 "4.8R" H 2341 6645 50  0000 R CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 2400 6600 50  0001 C CNN
+F 3 "~" H 2400 6600 50  0001 C CNN
+	1    2400 6600
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	1900 6500 2400 6500
+Wire Wire Line
+	2500 6500 2400 6500
+Connection ~ 2400 6500
+Wire Wire Line
+	2700 6500 2800 6500
+Wire Wire Line
+	2400 6700 2400 6800
+Wire Wire Line
+	2400 6800 2800 6800
+Wire Wire Line
+	2800 6800 2800 6700
+$Comp
+L power:GNDA #PWR0106
+U 1 1 5E511C57
+P 2800 6800
+F 0 "#PWR0106" H 2800 6550 50  0001 C CNN
+F 1 "GNDA" H 2805 6627 50  0000 C CNN
+F 2 "" H 2800 6800 50  0001 C CNN
+F 3 "" H 2800 6800 50  0001 C CNN
+	1    2800 6800
+	1    0    0    -1  
+$EndComp
+Connection ~ 2800 6800
+Wire Wire Line
+	1900 6700 2150 6700
+Wire Wire Line
+	2150 6700 2150 6800
+Wire Wire Line
+	2150 6800 2400 6800
+Connection ~ 2400 6800
+$Comp
+L power:GNDA #PWR0107
+U 1 1 5E516E8F
+P 6500 1750
+F 0 "#PWR0107" H 6500 1500 50  0001 C CNN
+F 1 "GNDA" H 6505 1577 50  0000 C CNN
+F 2 "" H 6500 1750 50  0001 C CNN
+F 3 "" H 6500 1750 50  0001 C CNN
+	1    6500 1750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R14
+U 1 1 5E517B39
+P 6850 1650
+F 0 "R14" H 6909 1696 50  0000 L CNN
+F 1 "1k" H 6909 1605 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 6850 1650 50  0001 C CNN
+F 3 "~" H 6850 1650 50  0001 C CNN
+	1    6850 1650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R13
+U 1 1 5E518378
+P 6650 1550
+F 0 "R13" V 6454 1550 50  0000 C CNN
+F 1 "100k" V 6545 1550 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 6650 1550 50  0001 C CNN
+F 3 "~" H 6650 1550 50  0001 C CNN
+	1    6650 1550
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C_Small C7
+U 1 1 5E518DFC
+P 7100 1650
+F 0 "C7" H 7192 1696 50  0000 L CNN
+F 1 "22n" H 7192 1605 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 7100 1650 50  0001 C CNN
+F 3 "~" H 7100 1650 50  0001 C CNN
+	1    7100 1650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6750 1550 6850 1550
+Wire Wire Line
+	6850 1550 7100 1550
+Connection ~ 6850 1550
+Wire Wire Line
+	6500 1750 6850 1750
+Connection ~ 6500 1750
+Wire Wire Line
+	6850 1750 7100 1750
+Connection ~ 6850 1750
+Wire Wire Line
+	7100 1550 7450 1550
+Connection ~ 7100 1550
+Wire Wire Line
+	6500 1550 6550 1550
+Wire Wire Line
+	2800 1500 3200 1500
+Connection ~ 2800 1500
+Wire Wire Line
+	2800 2500 3200 2500
+Connection ~ 2800 2500
+Wire Wire Line
+	2800 3500 3200 3500
+Connection ~ 2800 3500
+Wire Wire Line
+	2800 4500 3200 4500
+Connection ~ 2800 4500
+Wire Wire Line
+	2800 5500 3200 5500
+Connection ~ 2800 5500
+Wire Wire Line
+	2800 6500 3200 6500
+Connection ~ 2800 6500
+$Comp
+L Device:R_Small R15
+U 1 1 5E52EB8A
+P 3500 1600
+F 0 "R15" H 3441 1554 50  0000 R CNN
+F 1 "1k" H 3441 1645 50  0000 R CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 3500 1600 50  0001 C CNN
+F 3 "~" H 3500 1600 50  0001 C CNN
+	1    3500 1600
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:C_Small C8
+U 1 1 5E52F19D
+P 3750 1600
+F 0 "C8" H 3842 1646 50  0000 L CNN
+F 1 "22n" H 3842 1555 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 3750 1600 50  0001 C CNN
+F 3 "~" H 3750 1600 50  0001 C CNN
+	1    3750 1600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3500 1500 3750 1500
+Wire Wire Line
+	3500 1700 3500 1800
+Wire Wire Line
+	3500 1800 3750 1800
+Wire Wire Line
+	3750 1800 3750 1700
+Wire Wire Line
+	3750 1500 4000 1500
+Connection ~ 3750 1500
+$Comp
+L power:GNDA #PWR0108
+U 1 1 5E533FB6
+P 3750 1800
+F 0 "#PWR0108" H 3750 1550 50  0001 C CNN
+F 1 "GNDA" H 3755 1627 50  0000 C CNN
+F 2 "" H 3750 1800 50  0001 C CNN
+F 3 "" H 3750 1800 50  0001 C CNN
+	1    3750 1800
+	1    0    0    -1  
+$EndComp
+Connection ~ 3750 1800
+$Comp
+L Device:R_Small R16
+U 1 1 5E535A36
+P 3500 2600
+F 0 "R16" H 3441 2554 50  0000 R CNN
+F 1 "1k" H 3441 2645 50  0000 R CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 3500 2600 50  0001 C CNN
+F 3 "~" H 3500 2600 50  0001 C CNN
+	1    3500 2600
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:C_Small C9
+U 1 1 5E535A3C
+P 3750 2600
+F 0 "C9" H 3842 2646 50  0000 L CNN
+F 1 "22n" H 3842 2555 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 3750 2600 50  0001 C CNN
+F 3 "~" H 3750 2600 50  0001 C CNN
+	1    3750 2600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3500 2500 3750 2500
+Wire Wire Line
+	3500 2700 3500 2800
+Wire Wire Line
+	3500 2800 3750 2800
+Wire Wire Line
+	3750 2800 3750 2700
+Wire Wire Line
+	3750 2500 4000 2500
+Connection ~ 3750 2500
+$Comp
+L power:GNDA #PWR0109
+U 1 1 5E535A48
+P 3750 2800
+F 0 "#PWR0109" H 3750 2550 50  0001 C CNN
+F 1 "GNDA" H 3755 2627 50  0000 C CNN
+F 2 "" H 3750 2800 50  0001 C CNN
+F 3 "" H 3750 2800 50  0001 C CNN
+	1    3750 2800
+	1    0    0    -1  
+$EndComp
+Connection ~ 3750 2800
+$Comp
+L Device:R_Small R17
+U 1 1 5E53A76B
+P 3500 3600
+F 0 "R17" H 3441 3554 50  0000 R CNN
+F 1 "1k" H 3441 3645 50  0000 R CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 3500 3600 50  0001 C CNN
+F 3 "~" H 3500 3600 50  0001 C CNN
+	1    3500 3600
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:C_Small C10
+U 1 1 5E53A771
+P 3750 3600
+F 0 "C10" H 3842 3646 50  0000 L CNN
+F 1 "22n" H 3842 3555 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 3750 3600 50  0001 C CNN
+F 3 "~" H 3750 3600 50  0001 C CNN
+	1    3750 3600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3500 3500 3750 3500
+Wire Wire Line
+	3500 3700 3500 3800
+Wire Wire Line
+	3500 3800 3750 3800
+Wire Wire Line
+	3750 3800 3750 3700
+Wire Wire Line
+	3750 3500 4000 3500
+Connection ~ 3750 3500
+$Comp
+L power:GNDA #PWR0110
+U 1 1 5E53A77D
+P 3750 3800
+F 0 "#PWR0110" H 3750 3550 50  0001 C CNN
+F 1 "GNDA" H 3755 3627 50  0000 C CNN
+F 2 "" H 3750 3800 50  0001 C CNN
+F 3 "" H 3750 3800 50  0001 C CNN
+	1    3750 3800
+	1    0    0    -1  
+$EndComp
+Connection ~ 3750 3800
+$Comp
+L Device:R_Small R18
+U 1 1 5E53D697
+P 3500 4600
+F 0 "R18" H 3441 4554 50  0000 R CNN
+F 1 "1k" H 3441 4645 50  0000 R CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 3500 4600 50  0001 C CNN
+F 3 "~" H 3500 4600 50  0001 C CNN
+	1    3500 4600
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:C_Small C11
+U 1 1 5E53D69D
+P 3750 4600
+F 0 "C11" H 3842 4646 50  0000 L CNN
+F 1 "22n" H 3842 4555 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 3750 4600 50  0001 C CNN
+F 3 "~" H 3750 4600 50  0001 C CNN
+	1    3750 4600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3500 4500 3750 4500
+Wire Wire Line
+	3500 4700 3500 4800
+Wire Wire Line
+	3500 4800 3750 4800
+Wire Wire Line
+	3750 4800 3750 4700
+Wire Wire Line
+	3750 4500 4000 4500
+Connection ~ 3750 4500
+$Comp
+L power:GNDA #PWR0111
+U 1 1 5E53D6A9
+P 3750 4800
+F 0 "#PWR0111" H 3750 4550 50  0001 C CNN
+F 1 "GNDA" H 3755 4627 50  0000 C CNN
+F 2 "" H 3750 4800 50  0001 C CNN
+F 3 "" H 3750 4800 50  0001 C CNN
+	1    3750 4800
+	1    0    0    -1  
+$EndComp
+Connection ~ 3750 4800
+$Comp
+L Device:R_Small R19
+U 1 1 5E540D0F
+P 3500 5600
+F 0 "R19" H 3441 5554 50  0000 R CNN
+F 1 "1k" H 3441 5645 50  0000 R CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 3500 5600 50  0001 C CNN
+F 3 "~" H 3500 5600 50  0001 C CNN
+	1    3500 5600
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:C_Small C12
+U 1 1 5E540D15
+P 3750 5600
+F 0 "C12" H 3842 5646 50  0000 L CNN
+F 1 "22n" H 3842 5555 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 3750 5600 50  0001 C CNN
+F 3 "~" H 3750 5600 50  0001 C CNN
+	1    3750 5600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3500 5500 3750 5500
+Wire Wire Line
+	3500 5700 3500 5800
+Wire Wire Line
+	3500 5800 3750 5800
+Wire Wire Line
+	3750 5800 3750 5700
+Wire Wire Line
+	3750 5500 4000 5500
+Connection ~ 3750 5500
+$Comp
+L power:GNDA #PWR0112
+U 1 1 5E540D21
+P 3750 5800
+F 0 "#PWR0112" H 3750 5550 50  0001 C CNN
+F 1 "GNDA" H 3755 5627 50  0000 C CNN
+F 2 "" H 3750 5800 50  0001 C CNN
+F 3 "" H 3750 5800 50  0001 C CNN
+	1    3750 5800
+	1    0    0    -1  
+$EndComp
+Connection ~ 3750 5800
+$Comp
+L Device:R_Small R20
+U 1 1 5E543C22
+P 3500 6600
+F 0 "R20" H 3441 6554 50  0000 R CNN
+F 1 "1k" H 3441 6645 50  0000 R CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 3500 6600 50  0001 C CNN
+F 3 "~" H 3500 6600 50  0001 C CNN
+	1    3500 6600
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:C_Small C13
+U 1 1 5E543C28
+P 3750 6600
+F 0 "C13" H 3842 6646 50  0000 L CNN
+F 1 "22n" H 3842 6555 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 3750 6600 50  0001 C CNN
+F 3 "~" H 3750 6600 50  0001 C CNN
+	1    3750 6600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3500 6500 3750 6500
+Wire Wire Line
+	3500 6700 3500 6800
+Wire Wire Line
+	3500 6800 3750 6800
+Wire Wire Line
+	3750 6800 3750 6700
+Wire Wire Line
+	3750 6500 4000 6500
+Connection ~ 3750 6500
+$Comp
+L power:GNDA #PWR0113
+U 1 1 5E543C34
+P 3750 6800
+F 0 "#PWR0113" H 3750 6550 50  0001 C CNN
+F 1 "GNDA" H 3755 6627 50  0000 C CNN
+F 2 "" H 3750 6800 50  0001 C CNN
+F 3 "" H 3750 6800 50  0001 C CNN
+	1    3750 6800
+	1    0    0    -1  
+$EndComp
+Connection ~ 3750 6800
+$Comp
+L Device:R_Small R21
+U 1 1 5E54FC12
+P 6850 2100
+F 0 "R21" H 6909 2146 50  0000 L CNN
+F 1 "1k" H 6909 2055 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 6850 2100 50  0001 C CNN
+F 3 "~" H 6850 2100 50  0001 C CNN
+	1    6850 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C14
+U 1 1 5E54FC18
+P 7100 2100
+F 0 "C14" H 7192 2146 50  0000 L CNN
+F 1 "22n" H 7192 2055 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 7100 2100 50  0001 C CNN
+F 3 "~" H 7100 2100 50  0001 C CNN
+	1    7100 2100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6850 2000 7100 2000
+Wire Wire Line
+	6850 2200 7100 2200
+Wire Wire Line
+	7100 2000 7450 2000
+Connection ~ 7100 2000
+$Comp
+L power:GNDA #PWR0114
+U 1 1 5E552DD7
+P 6850 2200
+F 0 "#PWR0114" H 6850 1950 50  0001 C CNN
+F 1 "GNDA" H 6855 2027 50  0000 C CNN
+F 2 "" H 6850 2200 50  0001 C CNN
+F 3 "" H 6850 2200 50  0001 C CNN
+	1    6850 2200
+	1    0    0    -1  
+$EndComp
+Connection ~ 6850 2200
 $EndSCHEMATC
