@@ -4187,4 +4187,32 @@ F 4 "GCM188R71E224KA55D" H 7190 2400 50  0001 C CNN "manf#"
 	1    7190 2400
 	-1   0    0    1   
 $EndComp
+Text GLabel 3745 2900 0    50   Input ~ 0
+VP
+Text GLabel 3745 3000 0    50   Input ~ 0
+VN
+Text GLabel 3745 3200 0    50   Input ~ 0
+IN
+Text GLabel 3745 3400 0    50   Input ~ 0
+IAN
+Text GLabel 3745 3500 0    50   Input ~ 0
+IAP
+Text GLabel 3745 3600 0    50   Input ~ 0
+IBN
+Text GLabel 3745 3700 0    50   Input ~ 0
+IBP
+Text GLabel 3745 3800 0    50   Input ~ 0
+ICN
+Text GLabel 3745 3900 0    50   Input ~ 0
+ICP
+Text GLabel 3745 4000 0    50   Input ~ 0
+IFP
+Text GLabel 3745 4100 0    50   Input ~ 0
+IDP
+Text GLabel 3745 4200 0    50   Input ~ 0
+IEP
+Text Label 3435 2100 0    50   ~ 0
+AVDD
+Text Label 3440 2300 0    50   ~ 0
+DVDD
 $EndSCHEMATC
