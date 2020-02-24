@@ -25,4 +25,52 @@ U 5E4CDB34
 F0 "meter_module" 50
 F1 "meter_module.sch" 50
 $EndSheet
+$Comp
+L Mechanical:MountingHole H2
+U 1 1 5E572DDD
+P 5600 5250
+F 0 "H2" H 5700 5296 50  0000 L CNN
+F 1 "MountingHole" H 5700 5205 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3mm" H 5600 5250 50  0001 C CNN
+F 3 "~" H 5600 5250 50  0001 C CNN
+F 4 " " H 5600 5250 50  0001 C CNN "DNP"
+	1    5600 5250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H1
+U 1 1 5E573833
+P 5200 5250
+F 0 "H1" H 5300 5296 50  0000 L CNN
+F 1 "MountingHole" H 5300 5205 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3mm" H 5200 5250 50  0001 C CNN
+F 3 "~" H 5200 5250 50  0001 C CNN
+F 4 " " H 5200 5250 50  0001 C CNN "DNP"
+	1    5200 5250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H3
+U 1 1 5E573FFA
+P 5950 5250
+F 0 "H3" H 6050 5296 50  0000 L CNN
+F 1 "MountingHole" H 6050 5205 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3mm" H 5950 5250 50  0001 C CNN
+F 3 "~" H 5950 5250 50  0001 C CNN
+F 4 " " H 5950 5250 50  0001 C CNN "DNP"
+	1    5950 5250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H4
+U 1 1 5E57421A
+P 6300 5250
+F 0 "H4" H 6400 5296 50  0000 L CNN
+F 1 "MountingHole" H 6400 5205 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3mm" H 6300 5250 50  0001 C CNN
+F 3 "~" H 6300 5250 50  0001 C CNN
+F 4 " " H 6300 5250 50  0001 C CNN "DNP"
+	1    6300 5250
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

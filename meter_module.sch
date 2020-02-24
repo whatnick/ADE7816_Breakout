@@ -3815,10 +3815,6 @@ Wire Wire Line
 	5745 3800 6755 3800
 Wire Wire Line
 	5745 3600 6000 3600
-Wire Wire Line
-	6000 3600 6000 3700
-Wire Wire Line
-	6050 3600 6050 3300
 $Comp
 L Connector_Generic:Conn_01x10 J8
 U 1 1 5E4D21F4
@@ -3832,46 +3828,38 @@ F 4 " " H 6955 3600 50  0001 C CNN "DNP"
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	6105 3500 6105 3200
-Wire Wire Line
 	3745 4800 3490 4800
 Wire Wire Line
 	3745 4700 3490 4700
 Text Label 3490 4700 0    50   ~ 0
 SCLK
 Wire Wire Line
-	6000 3700 6755 3700
-Wire Wire Line
 	6050 3300 5745 3300
-Wire Wire Line
-	6050 3600 6755 3600
 Wire Wire Line
 	6105 3200 5745 3200
 Wire Wire Line
-	6105 3500 6755 3500
+	6755 3700 6425 3700
 Wire Wire Line
-	6755 3400 6425 3400
-Wire Wire Line
-	6755 3300 6425 3300
+	6755 3600 6425 3600
 Wire Wire Line
 	6755 3200 6425 3200
 Text Label 6425 3200 0    50   ~ 0
 ~RESET
-Text Label 6425 3400 0    50   ~ 0
+Text Label 6425 3600 0    50   ~ 0
 SCLK
 Text Label 6450 3900 0    50   ~ 0
 ~IRQ0
 Text Label 6450 3800 0    50   ~ 0
 ~IRQ1
-Text Label 6445 3700 0    50   ~ 0
+Text Label 6000 3600 0    50   ~ 0
 ~CS
-Text Label 6450 3600 0    50   ~ 0
+Text Label 6050 3300 0    50   ~ 0
 MISO
-Text Label 6450 3500 0    50   ~ 0
+Text Label 6105 3200 0    50   ~ 0
 MOSI
 Text Label 3490 4800 0    50   ~ 0
 HSCLK
-Text Label 6425 3300 0    50   ~ 0
+Text Label 6425 3700 0    50   ~ 0
 HSCLK
 Text Label 3500 2800 0    50   ~ 0
 ~RESET
@@ -4217,4 +4205,18 @@ Text Label 3435 2100 0    50   ~ 0
 AVDD
 Text Label 3440 2300 0    50   ~ 0
 DVDD
+Text Label 5835 2800 1    50   ~ 0
+CLKOUT
+Wire Wire Line
+	6755 3300 6435 3300
+Wire Wire Line
+	6755 3400 6435 3400
+Wire Wire Line
+	6755 3500 6435 3500
+Text Label 6435 3300 0    50   ~ 0
+~CS
+Text Label 6435 3400 0    50   ~ 0
+MOSI
+Text Label 6435 3500 0    50   ~ 0
+MISO
 $EndSCHEMATC
