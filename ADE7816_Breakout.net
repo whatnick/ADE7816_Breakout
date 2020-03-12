@@ -1,7 +1,7 @@
 (export (version D)
   (design
-    (source /home/joslyn/ADE7816_Breakout/ADE7816_Breakout.sch)
-    (date "Wed 11 Mar 2020 19:14:15")
+    (source /home/joslyn/extra/ADE7816_Breakout/ADE7816_Breakout.sch)
+    (date "Fri 13 Mar 2020 08:47:59")
     (tool "Eeschema 5.1.5")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -75,7 +75,7 @@
       (tstamp 5E57421A))
     (comp (ref J1)
       (value AudioJack3)
-      (footprint misc:Jack_3.5mm_CUI_SJ-3523-SMT_Horizontal)
+      (footprint modules:Jack_3.5mm_CUI_SJ-3523-SMT_Horizontal)
       (datasheet ~)
       (fields
         (field (name manf#) SJ-3523-SMT-TR))
@@ -84,7 +84,7 @@
       (tstamp 5E4CD16F))
     (comp (ref J7)
       (value Barrel_Jack_Switch)
-      (footprint Connectors:Barrel_Jack_CUI_PJ-102AH)
+      (footprint modules:Barrel_Jack_CUI_PJ-002A)
       (datasheet ~)
       (fields
         (field (name manf#) PJ-002A))
@@ -120,7 +120,7 @@
       (tstamp 5E501CEF))
     (comp (ref J2)
       (value AudioJack3)
-      (footprint misc:Jack_3.5mm_CUI_SJ-3523-SMT_Horizontal)
+      (footprint modules:Jack_3.5mm_CUI_SJ-3523-SMT_Horizontal)
       (datasheet ~)
       (fields
         (field (name manf#) SJ-3523-SMT-TR))
@@ -156,7 +156,7 @@
       (tstamp 5E50749D))
     (comp (ref J3)
       (value AudioJack3)
-      (footprint misc:Jack_3.5mm_CUI_SJ-3523-SMT_Horizontal)
+      (footprint modules:Jack_3.5mm_CUI_SJ-3523-SMT_Horizontal)
       (datasheet ~)
       (fields
         (field (name manf#) SJ-3523-SMT-TR))
@@ -192,7 +192,7 @@
       (tstamp 5E50980E))
     (comp (ref J4)
       (value AudioJack3)
-      (footprint misc:Jack_3.5mm_CUI_SJ-3523-SMT_Horizontal)
+      (footprint modules:Jack_3.5mm_CUI_SJ-3523-SMT_Horizontal)
       (datasheet ~)
       (fields
         (field (name manf#) SJ-3523-SMT-TR))
@@ -228,7 +228,7 @@
       (tstamp 5E50BCC3))
     (comp (ref J5)
       (value AudioJack3)
-      (footprint misc:Jack_3.5mm_CUI_SJ-3523-SMT_Horizontal)
+      (footprint modules:Jack_3.5mm_CUI_SJ-3523-SMT_Horizontal)
       (datasheet ~)
       (fields
         (field (name manf#) SJ-3523-SMT-TR))
@@ -264,7 +264,7 @@
       (tstamp 5E50EA77))
     (comp (ref J6)
       (value AudioJack3)
-      (footprint misc:Jack_3.5mm_CUI_SJ-3523-SMT_Horizontal)
+      (footprint modules:Jack_3.5mm_CUI_SJ-3523-SMT_Horizontal)
       (datasheet ~)
       (fields
         (field (name manf#) SJ-3523-SMT-TR))
@@ -471,7 +471,7 @@
       (tstamp 5E5445F6))
     (comp (ref U1)
       (value ADE7816ACPZ)
-      (footprint Package_DFN_QFN:QFN-40-1EP_5x5mm_P0.4mm_EP3.6x3.6mm_ThermalVias)
+      (footprint Housings_DFN_QFN:QFN-40-1EP_6x6mm_Pitch0.5mm)
       (datasheet LFCSP-40)
       (fields
         (field (name Field4) "Analog Devices")
@@ -703,7 +703,7 @@
         (pin (num 3) (name ~) (type BiDi)))))
   (libraries
     (library (logical ADE7816ACPZ)
-      (uri /home/joslyn/ADE7816_Breakout/lib/ADE7816ACPZ.lib))
+      (uri /home/joslyn/extra/ADE7816_Breakout/lib/ADE7816ACPZ.lib))
     (library (logical Connector_Generic)
       (uri /usr/share/kicad/library/Connector_Generic.lib))
     (library (logical Device)
@@ -711,7 +711,7 @@
     (library (logical Mechanical)
       (uri /usr/share/kicad/library/Mechanical.lib))
     (library (logical misc)
-      (uri /home/joslyn/ADE7816_Breakout/lib/misc.lib)))
+      (uri /home/joslyn/extra/ADE7816_Breakout/lib/misc.lib)))
   (nets
     (net (code 1) (name IAN)
       (node (ref C8) (pin 1))
