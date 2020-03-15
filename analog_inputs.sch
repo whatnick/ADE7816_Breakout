@@ -3207,4 +3207,16 @@ NoConn ~ 1900 6050
 NoConn ~ 1900 7040
 NoConn ~ 6400 2050
 Connection ~ 6400 2150
+Text Label 2000 1500 0    50   ~ 0
+IA
+Text Label 2000 2500 0    50   ~ 0
+IB
+Text Label 2000 3500 0    50   ~ 0
+IC
+Text Label 2000 4950 0    50   ~ 0
+ID
+Text Label 2000 5950 0    50   ~ 0
+IE
+Text Label 2000 6950 0    50   ~ 0
+IF
 $EndSCHEMATC
