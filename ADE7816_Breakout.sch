@@ -73,4 +73,15 @@ F 4 " " H 6300 5250 50  0001 C CNN "DNP"
 	1    6300 5250
 	1    0    0    -1  
 $EndComp
+$Comp
+L Graphic:Logo_Open_Hardware_Small LOGO1
+U 1 1 5E6DF8A2
+P 4250 5250
+F 0 "LOGO1" H 4250 5525 50  0001 C CNN
+F 1 "Logo_Open_Hardware_Small" H 4250 5025 50  0001 C CNN
+F 2 "Symbol:OSHW-Logo2_7.3x6mm_SilkScreen" H 4250 5250 50  0001 C CNN
+F 3 "~" H 4250 5250 50  0001 C CNN
+	1    4250 5250
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
